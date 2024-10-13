@@ -1,7 +1,8 @@
 # flutter
-## WindowsへのFlutterのインストール方法
-
 Flutterは、Googleが開発したクロスプラットフォームのUIツールキットで、一つのコードベースでiOS、Android、Web、デスクトップアプリを開発できます。
+
+## WindowsへのFlutterのインストール方法
+Flutterは、WindowsでもMacでもLinuxでもスマホでもWebでも利用できます。しかしWindowsの利用者は多いわりに、多くのプログラミング言語などはWindowsは他のOSと違い特殊で、リリースが遅れる事もあるので、説明も少なく不便なこともあります。ただし開発ニーズが多いです。  
 
 **WindowsへのFlutterのインストール手順**を、できるだけわかりやすく解説します。
 
