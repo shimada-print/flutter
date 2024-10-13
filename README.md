@@ -65,9 +65,6 @@ flutter run
 ```
 
 ### 9\. 新規プロジェクトの開始
-
-## Flutterプロジェクトの作成方法
-
 Flutterプロジェクトの作成方法は、Android StudioやVisual Studio CodeといったIDE（統合開発環境）を利用するのが一般的です。ここでは、Android Studioを使ったプロジェクト作成方法を詳しく解説します。
 
 ### Android StudioでのFlutterプロジェクト作成
@@ -85,7 +82,7 @@ Flutterプロジェクトの作成方法は、Android StudioやVisual Studio Cod
 5. **言語の選択:** Dart言語を選択します。
 6. **Finish:** 設定を確認し、Finishをクリックしてプロジェクトを作成します。
 
-### プロジェクト構造
+#### プロジェクト構造
 
 作成されたプロジェクトの主なフォルダとファイルは以下の通りです。
 
@@ -94,7 +91,7 @@ Flutterプロジェクトの作成方法は、Android StudioやVisual Studio Cod
 * **ios:** iOS用のネイティブコードが格納されるフォルダです。
 * **pubspec.yaml:** プロジェクトで使用するパッケージを管理するファイルです。
 
-### Flutterプロジェクトの作成コマンド
+#### Flutterプロジェクトの作成コマンド
 
 コマンドラインからFlutterプロジェクトを作成することもできます。
 
@@ -104,7 +101,7 @@ flutter create my_flutter_app
 
 上記の例では、「my_flutter_app」という名前のFlutterプロジェクトが作成されます。
 
-### Flutterプロジェクトの起動
+#### Flutterプロジェクトの起動
 
 作成したプロジェクトを起動するには、Android Studioのツールバーにある実行ボタンをクリックするか、ターミナルで以下のコマンドを実行します。
 
