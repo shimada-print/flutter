@@ -1,4 +1,4 @@
-# Flutter【スマホやWindowやMacのアプリやWebサーバーも作れる】
+# Flutter【スマホやWindowsやMacやLinuxのアプリやWebサーバーも作れる】
 Flutterは、Andoridの開発元で検索再大手のGoogleが開発したクロスプラットフォームのUIツールキットで、一つのコードベースでiOS、Android、Web、デスクトップアプリを開発できます。  
 
 スマホのアプリを開発できるもので代表的なのはJavaですが、Javaはコード数が多く、これはKotlinで改良されますが、Javaが最も開発者が多いような現実があります。JavaはVM（仮想マシン）を使用で処理速度が遅いという誤解がありますが、昨今のVMは改良されているようです。
