@@ -103,9 +103,9 @@ flutter create new_flutter_project
 * `flutter build apk`コマンドでAndroid用のAPKファイルを作成できます。
 * `flutter build ios`コマンドでiOS用のIPAファイルを作成できます。
 
-コマンドを入力したら以下の場所にビルドしたファイルが作成されます。
+`flutter build apk`コマンドを入力したら、以下の場所にビルドしたファイルが作成されます。
 ```
-コマンドを打ったルート\build\app\outputs\flutter-apk\app-release.apk
+ルート（プロジェクトの最上層）\build\app\outputs\flutter-apk\app-release.apk
 ```
   
 コマンドを入力し以下のエラーが出る場合は、パスは日本語やUnicodeなどではなく、ANSI文字のみにしてください。
@@ -113,7 +113,9 @@ flutter create new_flutter_project
 flutter build apk
 Your project path contains non-ASCII characters
 ```
-たぶん他のプログラミング言語なども、ANSI文字のみにしないとエラーが多く出ると思います。また環境変数のパスなどは_と-を混じらせると認識しない場合もあります。昔のUnixでは頭文字が大文字（HTML書類名がIndex.html）と小文字（HTML書類内でindex.html）だと認識せずに、これに類似したルータで広域接続障害もありました。
+たぶん他のプログラミング言語なども、ANSI文字のみにしないとエラーが多く出ると思います。これはプログラミング内部までは、装飾などに対応しないというメーカーの方針だと思います。  
+
+また環境変数のパスなどは_と-を混じらせると認識しない場合もあります。昔のUnixでは頭文字が大文字（HTML書類名がIndex.html）と小文字（HTML書類内でindex.html）だと認識せずに、これに類似したルータで広域接続障害もありました。
 
 ### 8\.プロジェクトを実行する
 プロジェクトを実行するには複数の方法があります。多くはAndroid Studioで実行ですが、他にメモリーが軽量なコマンド入力や、特殊な例としてAPKファイルなどを、Windowsなどのスマホの仮想アプリにインストールして起動も出来ます。
