@@ -120,8 +120,8 @@ flutter run
 * **パッケージ:** pub.devで公開されているパッケージを利用することで、機能を拡張することができます。
 
 ### ビルドする
-ビルドとはGoogle Play（Android）やApp Store（iOS）で公開できるファイルを作成することです。
-* `flutter build apk`コマンドでAndroid用のAPKファイル、
+ビルドとはGoogle Play（Android）やApp Store（iOS）で公開できるファイル（いわゆるスマホのアプリ）を作成することです。
+* `flutter build apk`コマンドでAndroid用のAPKファイルを作成できます。
 * `flutter build ios`コマンドでiOS用のIPAファイルを作成できます。
 
 コマンドを入力したら以下の場所にビルドしたファイルが作成されます。
