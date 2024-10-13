@@ -115,10 +115,26 @@ flutter run
 * **Widget:** FlutterのUIを構成する基本的な要素です。
 * **StatelessWidget:** 状態を持たないWidgetです。
 * **StatefulWidget:** 状態を持つWidgetです。
-* **ビルド:** `flutter build apk`コマンドでAndroid用のAPKファイル、`flutter build ios`コマンドでiOS用のIPAファイルを作成できます。
 * **ホットリロード:** コードを変更すると、シミュレーターや実機上のアプリが自動的に更新される機能です。
 * **状態管理:** Provider、Riverpod、BLoCなど、Flutterの状態管理ライブラリを利用して、アプリの状態を管理することができます。
 * **パッケージ:** pub.devで公開されているパッケージを利用することで、機能を拡張することができます。
+
+### ビルドする
+ビルドとはGoogle Play（Android）やApp Store（iOS）で公開できるファイルを作成することです。
+* `flutter build apk`コマンドでAndroid用のAPKファイル、
+* `flutter build ios`コマンドでiOS用のIPAファイルを作成できます。
+
+コマンドを入力したら以下の場所にビルドしたファイルが作成されます。
+```
+コマンドを打ったルート\build\app\outputs\flutter-apk\app-release.apk
+```
+  
+コマンドを入力し以下のエラーが出る場合は、パスは日本語やUnicodeなどではなく、ANSI文字のみにしてください。
+```bash
+flutter build apk
+Your project path contains non-ASCII characters
+```
+たぶん他のプログラミング言語なども、ANSI文字のみにしないとエラーが多く出ると思います。また環境変数のパスなどは_と-を混じらせると認識しない場合もあります。昔のUnixでは頭文字が大文字（HTML書類名がIndex.html）と小文字（HTML書類内でindex.html）だと認識せずに、これに類似したルータで広域接続障害もありました。
 
 ### その他
 
