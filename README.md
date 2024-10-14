@@ -101,13 +101,15 @@ flutter create new_flutter_project
 * **状態管理:** Provider、Riverpod、BLoCなど、Flutterの状態管理ライブラリを利用して、アプリの状態を管理することができます。
 * **パッケージ:** pub.devで公開されているパッケージを利用することで、機能を拡張することができます。
 
-### スマホのアプリを作る（ビルドする）
-ビルドとはGoogle Play（Android）やApp Store（iOS）で公開できるファイル（いわゆるスマホのアプリ）を作成することです。
+### スマホのアプリを作る（プロジェクトをビルドする）
+ビルドとはGoogle Play（Android）やApp Store（iOS）で公開できる圧縮書類のようなファイル（いわゆるスマホのアプリ）を作成することです。
 * `flutter build apk`コマンドでAndroid用のAPKファイルを作成できます。
 * `flutter build ios`コマンドでiOS用のIPAファイルを作成できます。
 
-`flutter build apk`コマンドを入力したら、以下の場所にビルドしたファイルが作成されます。
-```
+プロジェクトのルートでターミナルを開き、Androidアプリを作成なら`flutter build apk`、iOSアプリなら`flutter build ios`コマンドを入力します。  
+
+そうすると以下の場所にビルドしたファイルが作成されます。
+```apk
 ルート（プロジェクトの最上層）\build\app\outputs\flutter-apk\app-release.apk
 ```
   
