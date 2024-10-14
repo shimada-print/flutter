@@ -149,12 +149,10 @@ flutter run
 
 ### 参考情報
 
-  * **Flutter公式サイト:** [https://flutter.dev/](https://flutter.dev/)
-    主にこのFlutter公式サイトを参考です。
-  * **Android Studio公式サイト:** [https://developer.android.com/studio/](https://developer.android.com/studio/)
-  * **Visual Studio Code公式サイト:** [https://developer.android.com/studio/](https://code.visualstudio.com/)
-  * **JDK公式ダウンロードサイト:** [https://developer.android.com/studio/](https://www.oracle.com/jp/java/technologies/downloads/)
-  * **Visual Studio公式ダウンロードサイト:** [https://developer.android.com/studio/](https://visualstudio.microsoft.com/ja/downloads/)
-    Visual Studioをダウンロードは、Windowsのデスクトップアプリを作成する時だけは必要で、他ではほぼ必要は無いです。
+  * **Flutter公式サイト:** [https://flutter.dev/](https://flutter.dev/)：主にこのFlutter公式サイトを参考です。
+  * **Android Studio公式サイト:** [https://developer.android.com/studio/](https://developer.android.com/studio/)：SDKのバージョン・修正更新などが重要です。
+  * **Visual Studio Code公式サイト:** [https://developer.android.com/studio/](https://code.visualstudio.com/)：サポート機能などが便利です。
+  * **JDK公式ダウンロードサイト:** [https://developer.android.com/studio/](https://www.oracle.com/jp/java/technologies/downloads/)：JDKのバージョン・修正更新などが重要です。
+  * **Visual Studio公式ダウンロードサイト:** [https://developer.android.com/studio/](https://visualstudio.microsoft.com/ja/downloads/)：Visual Studioをダウンロードは、Windowsのデスクトップアプリを作成する時だけは必要で、他ではほぼ必要は無いです。
 
-**この回答は、Flutterのインストール手順を簡潔にまとめたものです。より詳細な情報や、特定の環境でのトラブルシューティングについては、上記の公式サイトを参照してください。**
+**このAIによる回答（私がプロンプトし回答も補足情報を一部追加）は、Flutterのインストール手順を簡潔にまとめたものです。より詳細な情報や、特定の環境でのトラブルシューティングについては、上記の公式サイトを参照してください。**
