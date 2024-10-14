@@ -135,18 +135,26 @@ flutter run
 #### スマホのアプリとして起動する
 ビルドしたAPK（Andorid）ファイルかIPA（iOS）ファイルを、Windowsなどのスマホの仮想アプリか、スマホの実機にファイル転送しアイコンを押すと、インストールなどされて起動できます。ただし証明書をつけるなどをしないと、セキュリティ機能で拒否するかもしれません。  
 
-これが野良アプリという状態で悪意のあるプログラムもあり、Google PlayやApp Storeでは証明書をつけたり審査をしているので、不明なWebサイトで配布されているAPLやIPAファイルはインストールしない方が良いです。方やDART（テキスト）ファイルはコンパイル（ビルド）済みファイルと違い、ソースコード（中身の文章）が見れるので研究用に、身元不明なものも利用しても良いかもしれません。
+これが野良アプリという状態で悪意のあるプログラムもあり、Google PlayやApp Storeでは証明書をつけたり審査をしているので、不明なWebサイトで配布されているAPKやIPAファイルはインストールしない方が良いです。  
+
+方やDart（テキスト）ファイルはコンパイル（ビルド）済みファイルと違い、ソースコード（中身の文章）が見れるので研究用に、身元不明なものも利用しても良いかもしれません。なおDartファイルはダブルクリックすると、VisualStadioCodeで起動するようにデフォルトで設定しているようです。VisualStadioCodeはセキュリティソフトやエミュレーターとも設定すれば連携しているようです。
 
 ### その他
-  * **Visual Studio Code:** Visual Studio CodeなどもIDEでもFlutter開発を行うことが出来て、人気があるので開発参加者が多く、多言語対応で、多機能です。
+  * **Visual Studio Code:** Visual Studio CodeなどのIDEでFlutter開発を行うことが出来て、人気があるので開発参加者が多く、多言語対応で、多機能です。
   * コマンド入力やメモ帳などで編集よりも、IDEで作成した方がコパイロットなどのAIによる補助機能などで、簡単に多様な開発が出来ます。
-  * **Flutterのドキュメント:** Flutterの公式ドキュメントには、より詳細な情報やチュートリアルが掲載され、最新情報を得た方が良いです。
+  * **Flutterのドキュメント:** Flutterの公式ドキュメントには、より詳細な情報やチュートリアルが掲載され、バグなどからして最新情報を得た方が良いです。
+  * 参照するならコマンド`flutter --help`の方が他の情報よりも、現在使用している該当ツールであり、他の情報はバージョンなどで情報が異なるので正確です。
 
-**より詳しい情報やトラブルシューティングについては、Flutterの公式ドキュメントを参照することをおすすめします。**
+**より詳しい情報やトラブルシューティングについては、公式ドキュメントなどを参照することをおすすめします。**
 
 ### 参考情報
 
-  * **Flutter公式サイト:** [https://flutter.dev/](https://www.google.com/url?sa=E&source=gmail&q=https://flutter.dev/)
-  * **Android Studio:** [https://developer.android.com/studio/](https://www.google.com/url?sa=E&source=gmail&q=https://developer.android.com/studio/)
+  * **Flutter公式サイト:** [https://flutter.dev/](https://flutter.dev/)
+    主にこのFlutter公式サイトを参考です。
+  * **Android Studio公式サイト:** [https://developer.android.com/studio/](https://developer.android.com/studio/)
+  * **Visual Studio Code公式サイト:** [https://developer.android.com/studio/](https://code.visualstudio.com/)
+  * **JDK公式ダウンロードサイト:** [https://developer.android.com/studio/](https://www.oracle.com/jp/java/technologies/downloads/)
+  * **Visual Studio公式ダウンロードサイト:** [https://developer.android.com/studio/](https://visualstudio.microsoft.com/ja/downloads/)
+    Visual Studioをダウンロードは、Windowsのデスクトップアプリを作成する時だけは必要で、他ではほぼ必要は無いです。
 
 **この回答は、Flutterのインストール手順を簡潔にまとめたものです。より詳細な情報や、特定の環境でのトラブルシューティングについては、上記の公式サイトを参照してください。**
