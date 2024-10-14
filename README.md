@@ -64,6 +64,9 @@ Flutterプロジェクトの作成方法は、Android StudioやVisual Studio Cod
 ```bash
 flutter create new_flutter_project
 ```
+下記を見ればわかりますが、Android Studioでプロジェクト作成するよりも、コマンドで作成した方が手間は少なく簡単です。コマンドで作成しても、その後はVisualStadioCodeなどの便利なIDEや、メモリー消費減なメモ帳などのテキストエディターでファイルを開き、開発できます。  
+
+ただし業務で使用などの場合は、後でプロジェクトの説明、組織名、IDなどを追記する必要があり、プロジェクト構造などに対する多少の知識が必要です。
 
 ### Android StudioでFlutterプロジェクト作成する
 1. **Android Studioの起動:** Android Studioを起動し、「Start a new Flutter project」を選択します。
