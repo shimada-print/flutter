@@ -102,15 +102,15 @@ flutter create new_flutter_project
 * **パッケージ:** pub.devで公開されているパッケージを利用することで、機能を拡張することができます。
 
 ### スマホのアプリを作る（プロジェクトをビルドする）
-ビルドとはGoogle Play（Android）やApp Store（iOS）で公開できる圧縮書類のようなファイル（いわゆるスマホのアプリ）を作成することです。
+ビルド（建てる）とはGoogle Play（Android）やApp Store（iOS）などのアプリ販売サイトで公開できる圧縮書類のような単体なファイル（いわゆるスマホのアプリ）を作成することです。
 * `flutter build apk`コマンドでAndroid用のAPKファイルを作成できます。
 * `flutter build ios`コマンドでiOS用のIPAファイルを作成できます。
 
 プロジェクトのルートでターミナルを開き、Androidアプリを作成なら`flutter build apk`、iOSアプリなら`flutter build ios`コマンドを入力します。  
 
-そうすると以下の場所にビルドしたファイルが作成されます。
-```apk
-ルート（プロジェクトの最上層）\build\app\outputs\flutter-apk\app-release.apk
+そうすると以下の場所にビルドしたファイルが作成されます。そうしたらflutter-apkフォルダに移動し、app-release.apkをコピーしファイル名を改名すれば公開できます。ただしこのコマンドを入力する前にｍGoogle PlayやApp Storeなどで公開したい場合は、電子証明書の署名などがあると思うので、それらの公式サイトで作成する追加な方法を参照してください。
+```bash
+cd ルート（プロジェクトの最上層）\build\app\outputs\flutter-apk\app-release.apk
 ```
   
 コマンドを入力し以下のエラーが出る場合は、パスは日本語やUnicodeなどではなく、ANSI文字のみにしてください。
